@@ -10,9 +10,9 @@ import (
 
 	"github.com/ipfs/go-ipfs/core/coreapi/interface"
 
-	ft "gx/ipfs/QmUnHNqhSB1JgzVCxL1Kz3yb4bdyB4q1Z9AD5AUBVmt3fZ/go-unixfs"
-	uio "gx/ipfs/QmUnHNqhSB1JgzVCxL1Kz3yb4bdyB4q1Z9AD5AUBVmt3fZ/go-unixfs/io"
-	files "gx/ipfs/QmZMWMvWMVKCbHetJ4RgndbuEF1io2UpUxwQwtNjtYPzSC/go-ipfs-files"
+	files "gx/ipfs/QmV22UjK6MYjyb4Zn5BtVg98wZWNiWK24paamYNgr9tLeX/go-ipfs-files"
+	ft "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs"
+	uio "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs/io"
 	dag "gx/ipfs/QmcGt25mrjuB2kKW2zhPbXVZNHc4yoTDQ65NA8m6auP2f1/go-merkledag"
 	ipld "gx/ipfs/QmcKKBwfz6FyQdHR2jsXrrF6XeSBXYL86anmWNewpFpoF5/go-ipld-format"
 )

@@ -12,16 +12,16 @@ import (
 	"github.com/ipfs/go-ipfs/core/coreunix"
 
 	bstore "gx/ipfs/QmS2aqUZLJp8kF1ihE5rvDGE5LvmKDPnx32w9Z1BW9xLV5/go-ipfs-blockstore"
-	ft "gx/ipfs/QmUnHNqhSB1JgzVCxL1Kz3yb4bdyB4q1Z9AD5AUBVmt3fZ/go-unixfs"
-	uio "gx/ipfs/QmUnHNqhSB1JgzVCxL1Kz3yb4bdyB4q1Z9AD5AUBVmt3fZ/go-unixfs/io"
-	mfs "gx/ipfs/QmV8mXUh1M9qztax7vVdL1Apuz4c1eJZC5YactGxaJfWom/go-mfs"
+	files "gx/ipfs/QmV22UjK6MYjyb4Zn5BtVg98wZWNiWK24paamYNgr9tLeX/go-ipfs-files"
 	blockservice "gx/ipfs/QmVDTbzzTwnuBwNbJdhW3u7LoBQp46bezm9yp4z1RoEepM/go-blockservice"
 	offline "gx/ipfs/QmYZwey1thDTynSrvd6qQkX24UpTka6TFhQ2v569UpoqxD/go-ipfs-exchange-offline"
-	files "gx/ipfs/QmZMWMvWMVKCbHetJ4RgndbuEF1io2UpUxwQwtNjtYPzSC/go-ipfs-files"
+	ft "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs"
+	uio "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs/io"
 	cidutil "gx/ipfs/QmbfKu17LbMWyGUxHEUns9Wf5Dkm8PT6be4uPhTkk4YvaV/go-cidutil"
 	dag "gx/ipfs/QmcGt25mrjuB2kKW2zhPbXVZNHc4yoTDQ65NA8m6auP2f1/go-merkledag"
 	dagtest "gx/ipfs/QmcGt25mrjuB2kKW2zhPbXVZNHc4yoTDQ65NA8m6auP2f1/go-merkledag/test"
 	ipld "gx/ipfs/QmcKKBwfz6FyQdHR2jsXrrF6XeSBXYL86anmWNewpFpoF5/go-ipld-format"
+	mfs "gx/ipfs/QmckjyEA3AgL9CJQZjMEMk9zqpC1oRtCDvR4wzdpVgJpFp/go-mfs"
 )
 
 type UnixfsAPI CoreAPI
