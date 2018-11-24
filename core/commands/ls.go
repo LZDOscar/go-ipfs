@@ -10,9 +10,9 @@ import (
 	iface "github.com/ipfs/go-ipfs/core/coreapi/interface"
 
 	cid "gx/ipfs/QmR8BauakNcBa3RbE4nbQu76PDiJgoQgz8AJdhJuiU4TAw/go-cid"
+	cmds "gx/ipfs/QmTRaWjXSqxbkem8MtneKQADF7b2qGsvnchQs3V2NEV8BX/go-ipfs-cmds"
 	blockservice "gx/ipfs/QmVDTbzzTwnuBwNbJdhW3u7LoBQp46bezm9yp4z1RoEepM/go-blockservice"
 	offline "gx/ipfs/QmYZwey1thDTynSrvd6qQkX24UpTka6TFhQ2v569UpoqxD/go-ipfs-exchange-offline"
-	cmds "gx/ipfs/Qma6uuSyjkecGhMFFLfzyJDPyoDtNJSHJNweDccZhaWkgU/go-ipfs-cmds"
 	unixfs "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs"
 	uio "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs/io"
 	unixfspb "gx/ipfs/QmbSToeS5KJe46D7TPWAPyKUZSerqKnpYem38cCxkBXSzB/go-unixfs/pb"
